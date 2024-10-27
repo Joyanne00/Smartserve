@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Example data cards -->
+    <TextView
+        android:id="@+id/dashboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Dashboard"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/soilHealthCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soil Health: Good"
+        android:layout_below="@id/dashboardTitle"
+        android:padding="16dp"
+        android:background="@android:color/holo_green_light" />
+
+    <TextView
+        android:id="@+id/weatherCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather: Sunny, 25°C"
+        android:layout_below="@id/soilHealthCard"
+        android:padding="16dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/goToSensorsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Sensors"
+        android:layout_below="@id/weatherCard"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/helpSupportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help & Support"
+        android:textSize="24sp"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/faqLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_below="@id/helpSupportTitle"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/contactSupportLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Support"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_below="@id/faqLink"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>
